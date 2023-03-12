@@ -6,6 +6,7 @@
 </h3>
 
 ## Description
+<img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/5918290f9ce9b4ed905d118e958d6a8ccadf4b8c/images/Abbey-Road-Cover.jpg" alt="your_alt_text" align="right" style="width: 50%; height: 60%;">
 * This is a simple application that uses the spectacular Stable Diffusion model to generate images from song lyrics.
 
 * We apply a large multilingual language model in open-ended generation of English song lyrics, and
@@ -22,24 +23,24 @@ a English-language stable diffusion model to produce high quality lyric-guided a
 ### Generates music album covers using Latest AI tools, namely:
 * Stable Diffusion
 
-<img src = "images\stable-diffusion-text-to-image.png">
-<img src = "images\stable-diffusion-unet-steps.png" >
+<img src = "images\stable-diffusion-text-to-image.png" align="center" style="width: 80%; height: auto;">
+<img src = "images\stable-diffusion-unet-steps.png" align="center" style="width: 80%; height: auto;">
 
 #### How are lyrics transcribed?
 This notebook uses openai's recently released 'whisper' model for performing automatic speech recognition. OpenAI was kind enough to offer several different sizes of this model which each have their own pros and cons. This notebook uses the largest whisper model for transcribing the actual lyrics. Additionally, we use the smallest model for performing the lyric segmentation. Neither of these models is perfect, but the results so far seem pretty decent.
 
 * OpenAI Whisper for transcript
-  <img src = "images\whisper.png">
+  <img src = "images\whisper.png" style="width: 80%; height: auto;">
 * Spotify Access token for songs retrieval
 
-  <img src ="images\spotify1.png"  style: height="180px" width="700px">
+  <img src ="images\spotify1.png"  style: height="180px" width="700px" align="center" >
 * Genius Lyrics for songs
 
-<img src ="images\genius1.png"  style: height="200px" width="670px">
+<img src ="images\genius1.png"  style: height="200px" width="670px" align="center" >
 
 ### Papers reviewed:
 * [In BLOOM: Creativity and Affinity in Artificial Lyrics and Art](https://www.researchgate.net/publication/367165610_In_BLOOM_Creativity_and_Affinity_in_Artificial_Lyrics_and_Art)
-<img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/chin1.png">
+<img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/chin1.png" style="width: 50%; height: 60%;">
 
 * [GLIGEN, Open-Set Grounded Text-to-Image Generation](https://www.researchgate.net/publication/367216711_GLIGEN_Open-Set_Grounded_Text-to-Image_Generation) 
 
