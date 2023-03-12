@@ -23,7 +23,7 @@ a English-language stable diffusion model to produce high quality lyric-guided a
 * Stable Diffusion
 
 <img src = "images\stable-diffusion-text-to-image.png">
-<img src = "images\stable-diffusion-unet-steps.png">
+<img src = "images\stable-diffusion-unet-steps.png" >
 
 #### How are lyrics transcribed?
 This notebook uses openai's recently released 'whisper' model for performing automatic speech recognition. OpenAI was kind enough to offer several different sizes of this model which each have their own pros and cons. This notebook uses the largest whisper model for transcribing the actual lyrics. Additionally, we use the smallest model for performing the lyric segmentation. Neither of these models is perfect, but the results so far seem pretty decent.
@@ -31,11 +31,22 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 * OpenAI Whisper for transcript
   <img src = "images\whisper.png">
 * Spotify Access token for songs retrieval
+
+  <img src ="images\spotify1.png"  style: height="180px" width="700px">
 * Genius Lyrics for songs
+
+<img src ="images\genius1.png"  style: height="200px" width="670px">
 
 ### Papers reviewed:
 * [In BLOOM: Creativity and Affinity in Artificial Lyrics and Art](https://www.researchgate.net/publication/367165610_In_BLOOM_Creativity_and_Affinity_in_Artificial_Lyrics_and_Art)
-* [GLIGEN: Open-Set Grounded Text-to-Image Generation](https://www.researchgate.net/publication/367216711_GLIGEN_Open-Set_Grounded_Text-to-Image_Generation) : Large-scale text-to-image diffusion models have madeamazing advances. However, the status quo is to usetext input alone, which can impede controllability. In thiswork, we propose GLIGEN,Grounded-Language-to-ImageGeneration, a novel approach that builds upon and extendsthe functionality of existing pre-trained text-to-image dif-fusion models by enabling them to also be conditioned ongrounding inputs. To preserve the vast concept knowledge ofthe pre-trained model, we freeze all of its weights and injectthe grounding information into new trainable layers via agated mechanism. Our model achieves open-world groundedtext2img generation with caption and bounding box condi-tion inputs, and the grounding ability generalizes well tonovel spatial conﬁgurations and concepts. GLIGEN’s zero-shot performance on COCO and LVIS outperforms existingsupervised layout-to-image baselines by a large margin
+<img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/chin1.png">
+
+* [GLIGEN, Open-Set Grounded Text-to-Image Generation](https://www.researchgate.net/publication/367216711_GLIGEN_Open-Set_Grounded_Text-to-Image_Generation) 
+
+Large-scale text-to-image diffusion models have madeamazing advances. However, the status quo is to usetext input alone, which can impede controllability. In thiswork, we propose GLIGEN,Grounded-Language-to-ImageGeneration, a novel approach that builds upon and extendsthe functionality of existing pre-trained text-to-image dif-fusion models by enabling them to also be conditioned ongrounding inputs. To preserve the vast concept knowledge ofthe pre-trained model, we freeze all of its weights and injectthe grounding information into new trainable layers via agated mechanism. Our model achieves open-world groundedtext2img generation with caption and bounding box condi-tion inputs, and the grounding ability generalizes well tonovel spatial conﬁgurations and concepts. GLIGEN’s zero-shot performance on COCO and LVIS outperforms existingsupervised layout-to-image baselines by a large margin
+
+<img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/pap2.png">
+
 
 
 
