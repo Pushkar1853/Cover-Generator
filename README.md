@@ -31,14 +31,27 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 
 * OpenAI Whisper for transcript
   <img src = "images\whisper.png" style="width: 80%; height: auto;">
-* Spotify Access token for songs retrieval
 
-  <img src ="images\spotify1.png"  style: height="180px" width="700px" align="center" >
-* Genius Lyrics for songs
+* Chat GPT and GPT-2 models
+ 
+## Notebooks:
+The whole process is divided into three sections:
+* <h4> The generation of Lyrics/Transcript from given audio file </h4>  
+[For notebook of audio  --->  Lyrics/Transcript](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-audio-lyrics.ipynb)
 
-<img src ="images\genius1.png"  style: height="200px" width="670px" align="center" >
+* <h4> The generation of Prompt from the lyrics </h4> 
+[For notebook of lyrics  --->  prompt](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/lyrics-prompt.ipynb)
 
-### Papers reviewed:
+* <h4> The generation of Stable-diffused image from the Prompt </h4> 
+[For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
+
+<h2> Notebooks for creation of meeting covers using transcript</h2>
+
+[Meeting covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
+
+` final-baseline/meeting-cover-baseline.ipynb `
+
+## Papers reviewed:
 * [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 * [Robust Speech Recognition via Large-Scale Weak Supervision](https://cdn.openai.com/papers/whisper.pdf)
 * [In BLOOM: Creativity and Affinity in Artificial Lyrics and Art](https://www.researchgate.net/publication/367165610_In_BLOOM_Creativity_and_Affinity_in_Artificial_Lyrics_and_Art)
