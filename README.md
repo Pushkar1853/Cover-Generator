@@ -63,9 +63,9 @@ The whole process is divided into three sections:
 * <h4> The generation of Stable-diffused image from the Prompt </h4> 
 [For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
 
-<h2> Notebooks for creation of meeting covers using transcript</h2>
+<h2> Notebooks for creation of meeting/book/document covers using transcript</h2>
 
-[Meeting covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
+[Meeting/Book/Document covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
 
 ` final-baseline/meeting-cover-baseline.ipynb `
 
