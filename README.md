@@ -5,6 +5,9 @@
   🎶 ➡ 🧠  ➡ 🖼️
 </h3>
 
+## Update 
+The discussed pipeline can also be effectively applied to the cover generation of books, podcasts, music albums, meetings, documents, story books, and theatre scripts, as in serving a multi-purpose role. 
+
 ## Description
 <img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/5918290f9ce9b4ed905d118e958d6a8ccadf4b8c/images/Abbey-Road-Cover.jpg" alt="your_alt_text" align="right" style="width: 50%; height: 60%;">
 * This is a simple application that uses the spectacular Stable Diffusion model to generate images from song lyrics.
@@ -21,6 +24,7 @@ highly than real lyrics by popular artists.
 a English-language stable diffusion model to produce high quality lyric-guided album art, demonstrating a creative approach for an artist seeking inspiration for an album or single.
 
 ## Generates music album covers using Latest AI tools, namely:
+<img src = "images\preface.png" align="center" style="width: 100%; height: auto;">
  <h3>1.  Stable Diffusion and DALL·E </h3>
  
 - We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language. DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs. We’ve found that it has a diverse set of capabilities, including creating anthropomorphized versions of animals and objects, combining unrelated concepts in plausible ways, rendering text, and applying transformations to existing images.
