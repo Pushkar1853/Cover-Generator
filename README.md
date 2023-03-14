@@ -22,6 +22,7 @@ a English-language stable diffusion model to produce high quality lyric-guided a
 
 ## Generates music album covers using Latest AI tools, namely:
  <h3>1.  Stable Diffusion and DALL·E </h3>
+ 
 - We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language. DALL·E is a 12-billion parameter version of GPT-3 trained to generate images from text descriptions, using a dataset of text–image pairs. We’ve found that it has a diverse set of capabilities, including creating anthropomorphized versions of animals and objects, combining unrelated concepts in plausible ways, rendering text, and applying transformations to existing images.
 
 - Like GPT-3, DALL·E is a transformer language model. It receives both the text and the image as a single stream of data containing up to 1280 tokens, and is trained using maximum likelihood to generate all of the tokens, one after another.
