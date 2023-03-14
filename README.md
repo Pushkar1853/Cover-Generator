@@ -59,7 +59,9 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 ## Notebooks:
 The whole process is divided into three sections:
 * <h4> The generation of Lyrics/Transcript from given audio file </h4>  
-[For notebook of audio  --->  Lyrics/Transcript](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-audio-lyrics.ipynb)
+[For notebook of meeting audio  --->  Transcript](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-audio-lyrics.ipynb)
+
+[For notebook of music audio  --->  Lyrics](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-audio-lyrics.ipynb)
 
 * <h4> The generation of Prompt from the lyrics </h4> 
 [For notebook of lyrics  --->  prompt](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/lyrics-prompt.ipynb)
@@ -67,11 +69,17 @@ The whole process is divided into three sections:
 * <h4> The generation of Stable-diffused image from the Prompt </h4> 
 [For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
 
-<h2> Notebooks for creation of meeting/book/document covers using transcript</h2>
+<h2> Notebook for creation of meeting/book/document covers using transcript</h2>
 
 [Meeting/Book/Document covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
 
 ` final-baseline/meeting-cover-baseline.ipynb `
+
+<h2> Notebook for creation of music covers using lyrics</h2>
+
+[Music cover notebook - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-cover-baseline.ipynb)
+
+` final-baseline/music-cover-baseline.ipynb `
 
 ## Papers reviewed:
 * [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
