@@ -39,6 +39,8 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 <img src ="images\genius1.png"  style: height="200px" width="670px" align="center" >
 
 ### Papers reviewed:
+* [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
+* [Robust Speech Recognition via Large-Scale Weak Supervision](https://cdn.openai.com/papers/whisper.pdf)
 * [In BLOOM: Creativity and Affinity in Artificial Lyrics and Art](https://www.researchgate.net/publication/367165610_In_BLOOM_Creativity_and_Affinity_in_Artificial_Lyrics_and_Art)
 <img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/chin1.png" style="width: 50%; height: 60%;">
 
