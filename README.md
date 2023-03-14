@@ -20,8 +20,8 @@ highly than real lyrics by popular artists.
 * Inspired by the inherently multimodal nature of album releases, we leverage
 a English-language stable diffusion model to produce high quality lyric-guided album art, demonstrating a creative approach for an artist seeking inspiration for an album or single.
 
-### Generates music album covers using Latest AI tools, namely:
-* Stable Diffusion
+## Generates music album covers using Latest AI tools, namely:
+* <h3> Stable Diffusion </h3>
 
 <img src = "images\stable-diffusion-text-to-image.png" align="center" style="width: 80%; height: auto;">
 <img src = "images\stable-diffusion-unet-steps.png" align="center" style="width: 80%; height: auto;">
@@ -29,10 +29,18 @@ a English-language stable diffusion model to produce high quality lyric-guided a
 #### How are lyrics transcribed?
 This notebook uses openai's recently released 'whisper' model for performing automatic speech recognition. OpenAI was kind enough to offer several different sizes of this model which each have their own pros and cons. This notebook uses the largest whisper model for transcribing the actual lyrics. Additionally, we use the smallest model for performing the lyric segmentation. Neither of these models is perfect, but the results so far seem pretty decent.
 
-* OpenAI Whisper for transcript
+* <h3> OpenAI Whisper for transcript </h3>
+
   <img src = "images\whisper.png" style="width: 80%; height: auto;">
 
-* Chat GPT and GPT-2 models
+* <h3> Chat GPT and GPT-2 models </h3>
+* We trained this model using Reinforcement Learning from Human Feedback (RLHF), using the same methods as InstructGPT, but with slight differences in the data collection setup. We trained an initial model using supervised fine-tuning: human AI trainers provided conversations in which they played both sides—the user and an AI assistant. We gave the trainers access to model-written suggestions to help them compose their responses. We mixed this new dialogue dataset with the InstructGPT dataset, which we transformed into a dialogue format.
+
+* To create a reward model for reinforcement learning, we needed to collect comparison data, which consisted of two or more model responses ranked by quality. To collect this data, we took conversations that AI trainers had with the chatbot. We randomly selected a model-written message, sampled several alternative completions, and had AI trainers rank them. Using these reward models, we can fine-tune the model using Proximal Policy Optimization. We performed several iterations of this process.
+
+<img src ="https://github.com/Pushkar1853/nanoGPT/blob/1460e488f1049b8b151408db495531b1852fc41a/images/ChatGPT_Diagram.svg"  style: height="600px" width="auto" align="right" >
+
+---
  
 ## Notebooks:
 The whole process is divided into three sections:
