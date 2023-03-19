@@ -8,6 +8,19 @@
 ## Update 
 The discussed pipeline can also be effectively applied to the cover generation of books, podcasts, music albums, meetings, documents, story books, and theatre scripts, as in serving a multi-purpose role. 
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href = "#description">Description</a></li>
+    <li><a href = "#generates-music-album-covers-using-latest-ai-tools-namely">AI Tools usage</a></li>
+    <li><a href = "#dataset">Dataset</a></li>
+    <li><a href = "#our-approach">Our Approach</a></li>
+    <li><a href = "#papers-reviewed">Papers Reviewed</a></li>
+    <li><a href = "#contributors">Contributors</a></li>
+  </ol>
+  </summary>
+</details>
+
 ## Description
 <img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/5918290f9ce9b4ed905d118e958d6a8ccadf4b8c/images/Abbey-Road-Cover.jpg" alt="your_alt_text" align="right" style="width: 50%; height: 60%;">
 * This is a simple application that uses the spectacular Stable Diffusion model to generate images from song lyrics.
@@ -57,6 +70,7 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 ---
  
 ## Notebooks:
+
 The whole process is divided into three sections:
 * <h4> The generation of Lyrics/Transcript from given audio file </h4>  
 [For notebook of meeting audio  --->  Transcript](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-audio-lyrics.ipynb)
@@ -69,19 +83,19 @@ The whole process is divided into three sections:
 * <h4> The generation of Stable-diffused image from the Prompt </h4> 
 [For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
 
-<h2>Final Python Script</h2>
+## <h2>Final Python Script</h2>
 
 [Python Script - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/6f2eece3127839d59758b8e53aa4a8409fa0fc6a/scripts/meeting_cover_baseline.py)
 
 ` scripts/meeting_cover_baseline.py `
 
-<h2> Notebook for creation of meeting/book/document covers using transcript</h2>
+## <h2> Notebook for creation of meeting/book/document covers using transcript</h2>
 
 [Meeting/Book/Document covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
 
 ` final-baseline/meeting-cover-baseline.ipynb `
 
-<h2> Notebook for creation of music covers using lyrics</h2>
+## <h2> Notebook for creation of music covers using lyrics</h2>
 
 * [Music cover notebook - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-cover-baseline.ipynb)
 
@@ -91,7 +105,7 @@ The whole process is divided into three sections:
 
 ` final-baseline/meeting-final-pipeline.ipynb `
 
-<h2>Websites deployed</h2>
+## <h2>Websites deployed</h2>
 
 * [Cover-Gen text-to-image](https://huggingface.co/spaces/PushkarA07/Cover-Gen-text2img)
 * [text-to-image webapp.py](https://github.com/Pushkar1853/Music-Cover-generator/blob/6f2eece3127839d59758b8e53aa4a8409fa0fc6a/webapp/app.py)
