@@ -12,11 +12,10 @@ The discussed pipeline can also be effectively applied to the cover generation o
   <summary>Table of Contents</summary>
   <ol>
     <li><a href = "#description">Description</a></li>
-    <li><a href = "#generates-music-album-covers-using-latest-ai-tools-namely">AI Tools usage</a></li>
-    <li><a href = "#dataset">Dataset</a></li>
-    <li><a href = "#our-approach">Our Approach</a></li>
+    <li><a href = "#generates-music-album-covers-using-latest-ai-tools-namely">Our Approach with AI Tools</a></li>
+    <li><a href = "#final-python-script">Pyhon Script</a></li>
+    <li><a href = "#websites-deployed">Websites Deployed</a></li>
     <li><a href = "#papers-reviewed">Papers Reviewed</a></li>
-    <li><a href = "#contributors">Contributors</a></li>
   </ol>
   </summary>
 </details>
@@ -67,20 +66,18 @@ This notebook uses openai's recently released 'whisper' model for performing aut
 
 <img src ="https://github.com/Pushkar1853/nanoGPT/blob/1460e488f1049b8b151408db495531b1852fc41a/images/ChatGPT_Diagram.svg"  style: height="600px" width="auto" align="right" >
 
----
- 
-## Notebooks:
+## <h2> Notebooks: </h2>
 
 The whole process is divided into three sections:
-* <h4> The generation of Lyrics/Transcript from given audio file </h4>  
+* <h3> The generation of Lyrics/Transcript from given audio file </h3>  
 [For notebook of meeting audio  --->  Transcript](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-audio-lyrics.ipynb)
 
 [For notebook of music audio  --->  Lyrics](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-audio-lyrics.ipynb)
 
-* <h4> The generation of Prompt from the lyrics </h4> 
+* <h3> The generation of Prompt from the lyrics </h3> 
 [For notebook of lyrics  --->  prompt](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/lyrics-prompt.ipynb)
 
-* <h4> The generation of Stable-diffused image from the Prompt </h4> 
+* <h3> The generation of Stable-diffused image from the Prompt </h3> 
 [For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
 
 ## <h2>Final Python Script</h2>
@@ -123,9 +120,3 @@ The whole process is divided into three sections:
 Large-scale text-to-image diffusion models have madeamazing advances. However, the status quo is to usetext input alone, which can impede controllability. In thiswork, we propose GLIGEN,Grounded-Language-to-ImageGeneration, a novel approach that builds upon and extendsthe functionality of existing pre-trained text-to-image dif-fusion models by enabling them to also be conditioned ongrounding inputs. To preserve the vast concept knowledge ofthe pre-trained model, we freeze all of its weights and injectthe grounding information into new trainable layers via agated mechanism. Our model achieves open-world groundedtext2img generation with caption and bounding box condi-tion inputs, and the grounding ability generalizes well tonovel spatial conﬁgurations and concepts. GLIGEN’s zero-shot performance on COCO and LVIS outperforms existingsupervised layout-to-image baselines by a large margin
 
 <img src="https://github.com/Pushkar1853/Music-Cover-generator/blob/eb1c8fc1bd521b27116554f39df0891aa988189d/images/pap2.png">
-
-
-
-
-
-
