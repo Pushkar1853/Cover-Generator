@@ -81,6 +81,11 @@ The whole process is divided into three sections:
 
 ` final-baseline/music-cover-baseline.ipynb `
 
+<h2>Websites deployed</h2>
+
+* [Cover-Gen text-to-image](https://huggingface.co/spaces/PushkarA07/Cover-Gen-text2img)
+* [Cover-Gen audio-to-image](https://huggingface.co/spaces/PushkarA07/Cover-Gen-audio2image)
+
 ## Papers reviewed:
 * [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 * [Robust Speech Recognition via Large-Scale Weak Supervision](https://cdn.openai.com/papers/whisper.pdf)
