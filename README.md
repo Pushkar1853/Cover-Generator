@@ -83,9 +83,13 @@ The whole process is divided into three sections:
 
 <h2> Notebook for creation of music covers using lyrics</h2>
 
-[Music cover notebook - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-cover-baseline.ipynb)
+* [Music cover notebook - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/64214eef0ddf54eed3139e6b1017db66ee8d20ac/final-baseline/music-cover-baseline.ipynb)
 
 ` final-baseline/music-cover-baseline.ipynb `
+
+* [Podcast cover notebook - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/5b5f84dc2f60815691789a4acf9d78175859aad8/final-baseline/meeting-final-pipeline.ipynb)
+
+` final-baseline/meeting-final-pipeline.ipynb `
 
 <h2>Websites deployed</h2>
 
