@@ -69,6 +69,12 @@ The whole process is divided into three sections:
 * <h4> The generation of Stable-diffused image from the Prompt </h4> 
 [For notebook of prompt  --->  image](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/prompt-image.ipynb)
 
+<h2>Final Python Script</h2>
+
+[Python Script - Click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/6f2eece3127839d59758b8e53aa4a8409fa0fc6a/scripts/meeting_cover_baseline.py)
+
+` scripts/meeting_cover_baseline.py `
+
 <h2> Notebook for creation of meeting/book/document covers using transcript</h2>
 
 [Meeting/Book/Document covers notebook - click here](https://github.com/Pushkar1853/Music-Cover-generator/blob/32e4240fadb609a657a8595ebe6d6d396f65cb42/final-baseline/meeting-cover-baseline.ipynb)
@@ -84,7 +90,9 @@ The whole process is divided into three sections:
 <h2>Websites deployed</h2>
 
 * [Cover-Gen text-to-image](https://huggingface.co/spaces/PushkarA07/Cover-Gen-text2img)
+* [text-to-image webapp.py](https://github.com/Pushkar1853/Music-Cover-generator/blob/6f2eece3127839d59758b8e53aa4a8409fa0fc6a/webapp/app.py)
 * [Cover-Gen audio-to-image](https://huggingface.co/spaces/PushkarA07/Cover-Gen-audio2image)
+* [audio-to-image webapp.py](https://github.com/Pushkar1853/Music-Cover-generator/blob/6f2eece3127839d59758b8e53aa4a8409fa0fc6a/webapp/app2.py)
 
 ## Papers reviewed:
 * [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
