@@ -1,5 +1,5 @@
 <h1 align="center">
-  Music-Cover-generator
+Cover Generator
 </h1>
 <h3 align="center">
   🎶 ➡ 🧠  ➡ 🖼️
