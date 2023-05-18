@@ -35,7 +35,10 @@ highly than real lyrics by popular artists.
 * Inspired by the inherently multimodal nature of album releases, we leverage
 a English-language stable diffusion model to produce high quality lyric-guided album art, demonstrating a creative approach for an artist seeking inspiration for an album or single.
 
-## Generates music album covers using Latest AI tools, namely:
+## Pipeline
+<img src="https://github.com/Pushkar1853/Cover-Generator/blob/e6551e1f187d744dbcfaf835789b1e0430b3cdf6/images/flow-covergen.jpg" alt="your_alt_text" style="width: auto; height: auto;">
+
+## Generates music album covers using Latest AI tools, namely
 <img src = "images\preface.png" align="center" style="width: 100%; height: auto;">
  <h3>1.  Stable Diffusion and DALL·E </h3>
  
