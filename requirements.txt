@@ -1,0 +1,12 @@
+datasets==2.10.1
+diffusers==0.11.1
+gradio==3.32.0
+nltk==3.8.1
+numpy==1.23.5
+Pillow==9.2.0
+Pillow==9.5.0
+pydub==0.25.1
+torch==2.0.0
+torchaudio==2.0.1
+tqdm==4.64.1
+transformers==4.25.1
